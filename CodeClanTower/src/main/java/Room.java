@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public abstract class Room {
 
     private int capacity;
@@ -9,6 +11,7 @@ public abstract class Room {
     public int getCapacity() {
         return this.capacity;
     }
+
 
 }
 
