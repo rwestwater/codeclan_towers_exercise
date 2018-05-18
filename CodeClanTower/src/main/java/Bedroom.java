@@ -1,2 +1,2 @@
-public class Bedroom extends Room{
-}
+//public class Bedroom extends Room{
+//}
