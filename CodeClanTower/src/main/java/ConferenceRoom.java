@@ -2,9 +2,9 @@ public class ConferenceRoom extends Room{
 
     private String roomName;
 
-    public ConferenceRoom() {
+    public ConferenceRoom(String roomName) {
 
-        super(1);
+        super(250);
         this.roomName = roomName;
     }
 

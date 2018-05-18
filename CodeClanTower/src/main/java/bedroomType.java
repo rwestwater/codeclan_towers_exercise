@@ -9,8 +9,5 @@ public enum BedroomType {
         this.rate = rate;
     }
 
-    public int getRate() {
-        return rate;
-    }
 }
 

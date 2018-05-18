@@ -13,7 +13,7 @@ public class BedroomTest {
 
     @Test
     public void canGetRoomNo(){
-        assertEquals(101, bedroom.getRoomNo(), 0.01);
+        assertEquals(101, bedroom.getRoomNo());
     }
 
     @Test
@@ -23,6 +23,11 @@ public class BedroomTest {
 
     @Test
     public void canGetCapacity(){
-        assertEquals(2, bedroom.getCapacity(), 0.01);
+        assertEquals(2, bedroom.getCapacity());
+    }
+
+    @Test
+    public void canGetBedroomType(){
+        assertEquals(BedroomType.DOUBLE, bedroom.getBedroomType());
     }
 }

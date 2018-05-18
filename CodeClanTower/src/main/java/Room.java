@@ -1,13 +1,14 @@
+import java.util.ArrayList;
+
 public abstract class Room {
 
-    private Integer capacity;
+    private int capacity;
 
-
-    public Room(Integer capacity) {
+    public Room(int capacity) {
         this.capacity = capacity;
     }
 
-    public Integer getCapacity() {
+    public int getCapacity() {
         return this.capacity;
     }
 

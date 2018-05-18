@@ -1,18 +1,18 @@
 public class Bedroom extends Room{
 
-  private Integer roomNo;
+  private int roomNo;
   private BedroomType type;
-  private Double rate;
+  private double rate;
 
 
-        public Bedroom(Integer roomNo, BedroomType type, Double rate) {
-            super(2);
-        this.roomNo = roomNo;
-        this.type = type;
-        this.rate = rate;
-        }
+  public Bedroom(int roomNo, BedroomType type, double rate){
+      super(2);
+      this.roomNo = roomNo;
+      this.type = type;
+      this.rate = rate;
+      }
 
-    public Integer getRoomNo(){
+    public int getRoomNo(){
         return roomNo;
     }
 
@@ -20,7 +20,7 @@ public class Bedroom extends Room{
         return type;
     }
 
-    public Double getRate(){
+    public double getRate(){
         return rate;
     }
 
