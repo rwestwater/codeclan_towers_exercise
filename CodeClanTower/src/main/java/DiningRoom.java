@@ -4,7 +4,7 @@ public class DiningRoom extends Room{
 
     public DiningRoom() {
 
-        super(10, 0.0, 250, "Dining Room");
+        super(10);
         this.roomName = roomName;
     }
 

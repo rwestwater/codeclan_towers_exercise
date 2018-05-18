@@ -1,11 +1,11 @@
-public enum bedroomType {
+public enum BedroomType {
 
     SINGLE(50),
     DOUBLE(60);
 
     private final int rate;
 
-    bedroomType(int rate) {
+    BedroomType(int rate) {
         this.rate = rate;
     }
 

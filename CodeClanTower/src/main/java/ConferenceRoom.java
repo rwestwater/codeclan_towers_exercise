@@ -4,7 +4,7 @@ public class ConferenceRoom extends Room{
 
     public ConferenceRoom() {
 
-        super(1, 250.00, 200, "Conference Room");
+        super(1);
         this.roomName = roomName;
     }
 
