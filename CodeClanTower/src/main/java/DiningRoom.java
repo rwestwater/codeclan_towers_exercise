@@ -2,13 +2,13 @@ public class DiningRoom extends Room{
 
     private String roomName;
 
-    public DiningRoom() {
+    public DiningRoom(String roomName) {
 
-        super(10);
+        super(250);
         this.roomName = roomName;
     }
 
     public String getRoomName(){
-        return "Dining Room";
+        return "McCallum";
     }
 }
