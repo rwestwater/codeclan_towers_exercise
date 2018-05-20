@@ -6,6 +6,7 @@ public class Hotel {
     private ArrayList<DiningRoom> collectionOfDiningRooms;
     private ArrayList<ConferenceRoom> collectionOfConferenceRooms;
     private ArrayList<Guest> guestList;
+    private Guest guest;
 
 
     public Hotel(){
@@ -13,6 +14,7 @@ public class Hotel {
         collectionOfDiningRooms = new ArrayList<>();
         collectionOfConferenceRooms = new ArrayList<>();
         guestList = new ArrayList<>();
+        guest = new Guest("Rachel");
     }
 
     public int getCollectionOfBedrooms(){
@@ -48,6 +50,12 @@ public class Hotel {
     }
 
 
+    public void guestsInRoom(Room room) {
+        room.guestList().add(guest);
+    }
 
+    public void checkOutGuests(Room room, Guest guest) {
+        room.guestList().remove(guest);
+    }
 
 }
