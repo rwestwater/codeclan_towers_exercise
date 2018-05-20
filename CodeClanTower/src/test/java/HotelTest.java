@@ -41,6 +41,25 @@ public class HotelTest {
         assertEquals(2, hotel.getCollectionOfDiningRooms());
     }
 
+    @Test
+    public void addRoomToCollectionOfConferenceRooms(){
+        hotel.addRoomToCollectionOfConferenceRooms(conferenceRoom);
+        assertEquals(1, hotel.getCollectionOfConferenceRooms());
+    }
+
+    @Test
+    public void getGuestList(){
+        assertEquals(0, hotel.getGuestList());
+    }
+
+    @Test
+    public void canCheckInGuests() {
+        hotel.checkInGuest(guest);
+        hotel.checkInGuest(guest);
+        assertEquals(2, hotel.getGuestList());
+    }
+
+
 
 
 

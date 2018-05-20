@@ -39,12 +39,15 @@ public class Hotel {
         collectionOfConferenceRooms.add(conferenceRoom);
     }
 
+    public int getGuestList() {
+        return this.guestList.size();
+    }
+
+    public void checkInGuest(Guest guest){
+        guestList.add(guest);
+    }
 
 
-//
-//    public int getGuestList(){
-//        guestList;
-//    }
 
 
 }
