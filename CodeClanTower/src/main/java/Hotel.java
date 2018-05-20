@@ -50,12 +50,12 @@ public class Hotel {
     }
 
 
-    public void guestsInRoom(Room room) {
-        room.guestList().add(guest);
+    public void guestsInRoom(Room room, Guest guest) {
+        collectionOfBedrooms.guestList(room).add(guest);
     }
 
     public void checkOutGuests(Room room, Guest guest) {
-        room.guestList().remove(guest);
+        collectionOfBedrooms.guestList(room).remove(guest);
     }
 
 }
